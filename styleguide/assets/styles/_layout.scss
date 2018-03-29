@@ -1,0 +1,120 @@
+.pavone-module {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  padding: 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.process-content {
+  color: white;
+  .process-item {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    .process-item-number {
+      margin-right: 20px;
+    }
+  }
+}
+
+.intro {
+  padding: 75px 75px;
+}
+
+.our-process {
+  color: white;
+  padding: 75px 75px;
+  background: black;
+  .pavone-module__title {
+    color: white;
+    font-size: 3em;
+  }
+}
+
+#social-frameworks {
+  background: url('https://images.unsplash.com/photo-1508248482388-df02a9d208d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b92116c959f806cb63d3df8da65cbb5&auto=format&fit=crop&w=1353&q=80')
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 1400px;
+  overflow: hidden;
+}
+
+.social-frameworks-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  .main {
+    align-self: flex-end;
+    background: white;
+    padding: 20px;
+    width: 60%;
+    height: 700px;;
+  }
+
+  .description {
+    display: flex;
+    height: 700px;
+
+    align-self: flex-start;
+
+    .social-frameworks-item {
+      background-color: white;
+      width: 40%;
+      padding: 30px;
+    }
+    .social-frameworks-item:last-child {
+      background-color: transparent;
+      width: 20%;
+      padding: 30px;
+    }
+  }
+}
+
+#design {
+  background: url('https://visualhierarchy.co/blog/wp-content/uploads/2015/12/StarWars-com-DB-Vader.jpg')
+    no-repeat center center fixed;
+
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+}
+
+#all-sides {
+  background: url('https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimages/1f40e16e-88a5-4ac0-82e9-3ee72b0b78d1.jpg._CB279533162_.jpg')
+    no-repeat center center fixed;
+
+  background-size: cover;
+   height: 700px;
+  overflow: hidden;
+}
+
+.Harmonious-design {
+  text-align: center;
+  padding: 200px;
+  h2 {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+  }
+}
+.all-sides-covered {
+  text-align: center;
+  padding: 200px;
+  h2 {
+    font-size: 4em;
+    font-weight: 700;
+    color: black;
+  }
+}
+
+.rfp-content {
+  padding: 75px 75px;
+  width: 50%;
+}
+
+.Work-bulldoggedly {
+  text-align: center;
+}
