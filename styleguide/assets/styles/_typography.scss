@@ -1,0 +1,25 @@
+// Font Variables
+$base-font-family: Helvetica, sans-serif;
+$body-font: $font-stack;
+$base-font-size: 16px;
+
+body {
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: 1.6;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+$base-font-family: Helvetica, sans-serif;
+  font-family: $header-font;
+  font-weight: normal;
+}
+
